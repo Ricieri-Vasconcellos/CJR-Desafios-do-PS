@@ -4,10 +4,14 @@
 }
 
 body {
-    background-color: #070750de;
+    background:linear-gradient(145deg, #1919c4de, #070750de);
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    padding-top: 40px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
 }
 
 /*Caixa com as opções*/
@@ -16,7 +20,6 @@ body {
     background-color: white;
     max-width: 30%;
     /* Testar qual é o melhor tamanho */
-    margin: 0 auto;
     padding: 30px;
     /* espaçamento interno */
     border-radius: 15px;
