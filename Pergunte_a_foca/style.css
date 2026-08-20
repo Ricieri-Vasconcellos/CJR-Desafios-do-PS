@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #070750de;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 40px;
+}
+
+/*Caixa com as opções*/
+
+.container {
+    background-color: white;
+    max-width: 25%;
+    /* Testar qual é o melhor tamanho */
+    margin: 0 auto;
+    padding: 30px;
+    /* espaçamento interno */
+    border-radius: 15px;
+}
+
+/* Titulos */
+h1 {
+    color: #4b0082;
+    margin-bottom: 15px;
+}
+
+
+/* Imagem da foca */
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 20%;
+    object-fit: cover;
+    /* faz a imagem preencher o espaço sem esticar */
+    margin-bottom: 20px;
+}
+
+/* Entradas de texto */
+input {
+    padding: 10px 10px;
+    border: 2px solid #f88d02;
+    font-size: 16px;
+    width: 120px;
+    margin: 5px 0;
+}
+
+input:focus {
+    border-color: #2200fc;
+    /* borda fica roxa */
+    outline: none;
+    /* tira a borda azul padrão que o navegador coloca */
+}
+
+/* Botão */
+button {
+    background-color: #6a5acd;
+    color: white;
+    /* texto branco */
+    border: none;
+    padding: 12px 30px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    /* vira uma mãozinha quando passa o mouse */
+    margin-top: 15px;
+}
