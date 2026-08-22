@@ -1,75 +1,74 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background:linear-gradient(145deg, #1919c4de, #070750de);
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-items: center;
+  background: linear-gradient(145deg, #1919c4de, #070750de);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
 }
 
 /*Caixa com as opções*/
 
 .container {
-    background-color: white;
-    max-width: 30%;
-    /* Testar qual é o melhor tamanho */
-    padding: 30px;
-    /* espaçamento interno */
-    border-radius: 15px;
+  background-color: white;
+  max-width: 30%;
+  /* Testar qual é o melhor tamanho */
+  padding: 30px;
+  /* espaçamento interno */
+  border-radius: 15px;
 }
 
 /* Titulos */
 h1 {
-    color: #4b0082;
-    margin-bottom: 15px;
+  color: #4b0082;
+  margin-bottom: 15px;
 }
-
 
 /* Imagem da foca */
 img {
-    width: 250px;
-    height: 250px;
-    border-radius: 30%;
-    object-fit: cover;
-    /* faz a imagem preencher o espaço sem esticar */
-    margin-bottom: 20px;
-    border: 5px solid #1b85b6de;
+  width: 250px;
+  height: 250px;
+  border-radius: 30%;
+  object-fit: cover;
+  /* faz a imagem preencher o espaço sem esticar */
+  margin-bottom: 20px;
+  border: 5px solid #1b85b6de;
 }
 
 /* Entradas de texto */
 input {
-    padding: 10px 10px;
-    border: 2px solid #2200fc;
-    border-radius: 10px;
-    font-size: 16px;
-    width: 120px;
-    margin: 5px 0;
+  padding: 10px 10px;
+  border: 2px solid #2200fc;
+  border-radius: 10px;
+  font-size: 16px;
+  width: 120px;
+  margin: 5px 0;
 }
 
 input:focus {
-    border-color:  #f88d02; /* borda fica roxa */
-    outline: none;
-    /* tira a borda azul padrão que o navegador coloca */
+  border-color: #f88d02; /* borda fica roxa */
+  outline: none;
+  /* tira a borda azul padrão que o navegador coloca */
 }
 
 /* Botão */
 button {
-    background-color: #6a5acd;
-    color: white;
-    /* texto branco */
-    border: none;
-    padding: 12px 30px;
-    border-radius: 10px;
-    font-size: 18px;
-    font-weight: bold;
-    cursor: pointer;
-    /* vira uma mãozinha quando passa o mouse */
-    margin-top: 15px;
+  background-color: #6a5acd;
+  color: white;
+  /* texto branco */
+  border: none;
+  padding: 12px 30px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  /* vira uma mãozinha quando passa o mouse */
+  margin-top: 15px;
 }
